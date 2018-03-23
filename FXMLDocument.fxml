@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="100" prefWidth="340" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shiftdemo.FXMLDocumentController">
+    <children>
+        <Label layoutX="10" layoutY="10" text="整數 8:" minHeight="16" minWidth="69" />
+        <Button layoutX="10" layoutY="30" text="&lt;&lt; 1" onAction="#handleButtonAction1" fx:id="button1" />
+        <Button layoutX="65" layoutY="30" text="&lt;&lt; 2" onAction="#handleButtonAction2" fx:id="button2" />
+        <Button layoutX="120" layoutY="30" text="&lt;&lt; 3" onAction="#handleButtonAction3" fx:id="button3" />
+        <Button layoutX="175" layoutY="30" text="&gt;&gt; 3" onAction="#handleButtonAction4" fx:id="button4" />
+        <Button layoutX="230" layoutY="30" text="&gt;&gt; 2" onAction="#handleButtonAction5" fx:id="button5" />
+        <Button layoutX="285" layoutY="30" text="&gt;&gt; 1" onAction="#handleButtonAction6" fx:id="button6" />
+        <Label layoutX="10" layoutY="70" text="結果是" minHeight="16" minWidth="69" fx:id="label" />
+    </children>
+</AnchorPane>
+
+<!--
+   《程式語言教學誌》的範例程式
+    http://kaiching.org/
+    檔名：FXMLDocument.fxml
+    功能：位元運算的 View 檔案
+    作者：張凱慶
+-->
